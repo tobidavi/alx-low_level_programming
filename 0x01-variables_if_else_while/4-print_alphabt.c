@@ -8,7 +8,7 @@
 int main(void)
 {
 	int q;
-	
+
 	for (q = 'a' ; q <= 'z' ; q++)
 	{
 		if (q != 'e' && q != 'q')
