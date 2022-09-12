@@ -12,15 +12,15 @@ int main(void)
 	int q;
 	int w;
 
-	for(q = '0'; q <= '9'; q++)
+	for (q = '0'; q <= '9'; q++)
 	{
-		for(w = '0'; w <= '9'; w++)
+		for (w = '0'; w <= '9'; w++)
 		{
-			if(q < w)
+			if (q < w)
 			{
 				putchar(q);
 				putchar(w);
-				if((q != '8') | (q == '8' && w != '9'))
+				if (q != '8' | (q == '8' && w != '9'))
 						{
 						putchar(',');
 						putchar(' ');
