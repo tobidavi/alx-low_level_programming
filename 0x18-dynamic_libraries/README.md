@@ -1,1 +1,1 @@
-dynamic library for C language
+dynamic libraries for C programming
